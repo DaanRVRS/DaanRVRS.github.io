@@ -224,11 +224,13 @@ body header .headerMenu .small {
     }
 
     body .orangeShape {
-        overflow: hidden;
         width: 2800px;
         height: 145px;
     }
     main .homeContainer {
         margin-top: 200px;
-  }
+    }
+    body {
+        overflow: hidden;
+    }
 }
