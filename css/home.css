@@ -233,4 +233,8 @@ body header .headerMenu .small {
     main {
         overflow-x: hidden;
     }
+
+    .aboutMeSmall {
+        margin-top: 10px;
+    }
 }
