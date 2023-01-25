@@ -210,10 +210,11 @@ footer .footerContact p:hover {
 }
 body header .headerMenu .small {
     display: none;
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {
-    body header .headerMenu .small {
+    header .headerMenu .small {
         display: block;
         cursor: pointer;
         color: white;
