@@ -230,7 +230,7 @@ body header .headerMenu .small {
     main .homeContainer {
         margin-top: 200px;
     }
-    body {
-        overflow: hidden;
+    main {
+        overflow-x: hidden;
     }
 }
