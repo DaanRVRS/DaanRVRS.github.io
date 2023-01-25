@@ -142,7 +142,7 @@ main .homeContainer {
     background-image: url("/img/kakakkaka_260x400.jpg");
     background-repeat: no-repeat;
     box-shadow: 10px 10px 10px rgb(34, 34, 34);
-
+    z-index: 1;
     border-radius: 10px;
 }
 
@@ -223,11 +223,12 @@ body header .headerMenu .small {
         display: none;
     }
 
-    .orangeShape {
-        width: 800px;
-        height: 324px;
+    body .orangeShape {
+        
+        width: 2800px;
+        height: 145px;
     }
     main .homeContainer {
-        margin-top: 0px;
+        margin-top: 200px;
   }
 }
