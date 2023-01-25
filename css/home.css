@@ -208,3 +208,16 @@ footer .footerContact p:hover {
     color: orange;
     cursor: pointer;
 }
+body header .headerMenu fa-2x {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    body header .headerMenu fa-2x {
+        display: block;
+        cursor: pointer;
+    }
+    header .headerMenu i {
+        display: none;
+    }
+  }
