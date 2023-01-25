@@ -222,4 +222,9 @@ body header .headerMenu .small {
     body header .headerMenu .big {
         display: none;
     }
+
+    main .orangeShape {
+        width: 800px;
+        height: 324px;
+    }
   }
