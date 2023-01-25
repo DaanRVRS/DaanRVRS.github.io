@@ -224,7 +224,7 @@ body header .headerMenu .small {
     }
 
     body .orangeShape {
-        
+        overflow-x: hidden;
         width: 2800px;
         height: 145px;
     }
