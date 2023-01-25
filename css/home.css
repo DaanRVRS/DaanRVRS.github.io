@@ -61,7 +61,7 @@ header .mailMenu    {
 } */
 
 /* the menu on the left in the header */
-header .headerMenu i {
+header .headerMenu .big {
     color: white;
     cursor: pointer;
 }
@@ -208,16 +208,16 @@ footer .footerContact p:hover {
     color: orange;
     cursor: pointer;
 }
-body header .headerMenu fa-2x {
+body header .headerMenu .small {
     display: none;
 }
 
 @media only screen and (max-width: 600px) {
-    body header .headerMenu fa-2x {
+    body header .headerMenu .small {
         display: block;
         cursor: pointer;
     }
-    header .headerMenu i {
+    header .headerMenu .big {
         display: none;
     }
   }
