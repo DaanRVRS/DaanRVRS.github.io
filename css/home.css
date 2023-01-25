@@ -216,6 +216,7 @@ body header .headerMenu .small {
     body header .headerMenu .small {
         display: block;
         cursor: pointer;
+        color: white;
     }
     header .headerMenu .big {
         display: none;
