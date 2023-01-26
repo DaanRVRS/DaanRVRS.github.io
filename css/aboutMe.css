@@ -127,6 +127,44 @@ main .homeContainer {
 	align-content: stretch;
 }
 
+main .homeContainer .column1 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+main .homeContainer .column2 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 300px;
+}
+
+main .homeContainer .column1 h1 {
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    text-shadow: 10px 10px 10px black;
+}
+
+main .homeContainer .column1 p {
+    color: white;
+    font-family: 'Nova Square', cursive;
+}
+
+
+main .homeContainer .column2 h1 {
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    text-shadow: 10px 10px 10px black;
+}
+
+main .homeContainer .column2 p {
+    color: white;
+    font-family: 'Nova Square', cursive;
+}
+
 /*  */
 /* Footer */
 /*  */
