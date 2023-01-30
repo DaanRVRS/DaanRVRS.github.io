@@ -100,7 +100,7 @@ header .headerTitle h1 {
 
 main {
     width: auto;
-    height: 1200px;
+    height: 2000px;
     background-color: #323232;
 }
 
@@ -188,6 +188,55 @@ footer .footerContact p:hover {
 body header .headerMenu .small {
     display: none;
     color: white;
+}
+
+main h1 {
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-top: -12%;
+    font-family: 'Share Tech Mono', monospace;
+    text-shadow: 10px 10px 10px black;
+}
+
+main .homeContainer div {
+    margin-top: 30%;
+    height: 500px;
+    width: 400px;
+    background-color: #4c4a4a;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+main .homeContainer .java img {
+    border-radius: 10px 10px 0 0;
+}
+
+main .homeContainer .java h1 {
+    margin-top: 3%;
+}
+main .homeContainer .java p {
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+    margin-top: 1%;
+}
+
+main .homeContainer .website img {
+    border-radius: 10px 10px 0 0;
+}
+
+
+main .homeContainer .website h1 {
+    margin-top: 3%;
+}
+
+main .homeContainer .website p {
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+    margin-top: 1%;
 }
 
 @media only screen and (max-width: 600px) {
