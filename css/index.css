@@ -251,7 +251,7 @@ body header .headerMenu .small {
         color: white;
     }
     #burgerPopup {
-        z-index: 2;
+        z-index: 3;
     }
     body header .headerMenu .big {
         display: none;
