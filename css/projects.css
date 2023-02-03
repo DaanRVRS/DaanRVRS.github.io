@@ -299,7 +299,9 @@ main .homeContainer .website:hover {
     body header .headerMenu .big {
         display: none;
     }
-
+    #burgerPopup {
+        z-index: 2;
+    }
     body .orangeShape {
         width: 2800px;
         height: 145px;

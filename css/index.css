@@ -250,6 +250,9 @@ body header .headerMenu .small {
         cursor: pointer;
         color: white;
     }
+    #burgerPopup {
+        z-index: 2;
+    }
     body header .headerMenu .big {
         display: none;
     }
