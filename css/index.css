@@ -213,6 +213,37 @@ body header .headerMenu .small {
     color: white;
 }
 
+#burgerPopup {
+    display: none;
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+    background-color: #282727;
+
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#burgerPopup div {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+#burgerPopup div h2 {
+    font-family: 'Nova Square', cursive;
+    margin-top: 50px;
+
+}
+
+#burgerPopup div p {
+    font-family: 'Nova Square', cursive;
+    cursor: pointer;
+
+}
+
 @media only screen and (max-width: 600px) {
     body header .headerMenu .small {
         display: block;
