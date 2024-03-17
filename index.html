@@ -1,99 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Daan Reuvers</title>
-        <link rel="stylesheet" href="css/index.css">
-        <script src="js/mainJS.js"></script>
-        <script src="https://kit.fontawesome.com/aa0c361891.js" crossorigin="anonymous"></script>  
-        
-        <!-- google fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-        <!-- Inter font -->
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
-
-        <!-- share tech mono font -->
-        <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-
-        <!-- Nova Square font -->
-        <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
-    </head>
-
-
-    <body>
-        <header>
-            <section class="headerMenu">
-                <i class="fa-solid fa-bars fa-4x big" onclick="toggle()"></i>
-                <i class="fa-solid fa-bars fa-2x small" onclick="toggle()"></i>
-            </section>  
-            
-            <section class="headerTitle">
-                <h1>Daan Reuvers</h1>
-            </section>
-
-            <section class="mailMenu">
-                <!-- <i class="fa-solid fa-envelope fa-4x"></i> -->
-            </section>  
-        </header>
-        <div id="burgerPopup">
-            <div>
-                <h2>Pages</h2>
-                <p><u>Home</u></p>
-                <p onclick="location.href = 'aboutMe.html';">About Me</p>
-                <p onclick="location.href = 'projects.html';">Projects</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daan Reuvers</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <header>
+      <a href="/">
+        <img alt="logo" src="/images/daanlogo.png" />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="/about.html">About me</a></li>
+          <li><a href="/projects.html">Projects</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="main">
+      <div class="introduction">
+        <div class="about-me">
+          <h1>My name is Daan Reuvers,</h1>
+          <p>
+            Welcome to my portfolio, here you can find all the projects I have
+            worked on. I am a frontend web developer with a passion for creating
+            beautiful and functional websites.
+          </p>
+        </div>
+        <img src="/images/daan.png" />
+      </div>
+      <div class="line"></div>
+      <div class="statistics">
+        <div class="code-stats graphbg">
+          <h3>Code stats (non framework)</h2>
+            <div class="stat-container">
+                <p>HTML/CSS</p>
+                <div>
+                    <div class="percentageline" style="background-image: linear-gradient(to right, rgb(72, 151, 253) 90%, gray 20%);"></div>
+                    <span>90%</span>
+                </div>
             </div>
-
-            <div>
-                <h2>Socials</h2>
-                <p onclick="location.href = 'https://www.instagram.com/daanreuvers/';">Instagram</p>
-                <p onclick="location.href = 'https://www.linkedin.com/in/daan-reuvers-224b95221/';">LinkedIn</p>
-                <p onclick="location.href = 'https://github.com/DaanRVRS';">GitHub</p>
+            <div class="stat-container">
+                <p>Javascript</p>
+                <div>
+                    <div class="percentageline" style="background-image: linear-gradient(to right, rgb(72, 151, 253) 80%, gray 20%);"></div>
+                    <span>80%</span>
+                </div>
+            </div>
+            <div class="stat-container">
+                <p>C#</p>
+                <div>
+                    <div class="percentageline" style="background-image: linear-gradient(to right, rgb(72, 151, 253) 30%, gray 20%);"></div>
+                    <span>30%</span>
+                </div>
+            </div>
+            <div class="stat-container">
+                <p>PHP</p>
+                <div>
+                    <div class="percentageline" style="background-image: linear-gradient(to right, rgb(72, 151, 253) 15%, gray 15%);"></div>
+                    <span>15%</span>
+                </div>
+            </div>
+            <div class="stat-container">
+                <p>Java</p>
+                <div>
+                    <div class="percentageline" style="background-image: linear-gradient(to right, rgb(72, 151, 253) 60%, gray 20%);"></div>
+                    <span>60%</span>
+                </div>
             </div>
         </div>
-
-        <main>
-            <section class="orangeShape"></section>
-
-            <section class="homeContainer">
-                <div class="aboutMeSmall">
-                    <h2>My name is Daan Reuvers</h2>
-                    <p>I'm a 16 year old Software Developer,</p>
-                    <p>Studying on ROC Nijmegen.</p>
-                    <p>And this is my portfolio.</p>
-                </div>
-
-                <div class="picture">
-
-                </div>
-            </section>
-        </main>
-
-        <footer>
-            <div class="footerPages">
-                <h3>Pages</h3>
-                <p><u>Home</u></p>
-                <p onclick="location.href = 'aboutMe.html';">About Me</p>
-                <p onclick="location.href = 'projects.html';">Projects</p>
-            </div>
-
-            <div class="footerSocials">
-                <h3>Socials</h3>
-                <p onclick="location.href = 'https://www.instagram.com/daanreuvers/';">Instagram</p>
-                <p onclick="location.href = 'https://www.linkedin.com/in/daan-reuvers-224b95221/';">LinkedIn</p>
-                <p onclick="location.href = 'https://github.com/DaanRVRS';">GitHub</p>
-            </div>
-
-            <div class="footerContact">
-                <h3>Contact Me</h3>
-                <p>* 0612345678</p>
-                <p>* dfpreuvers@gmail.com</p>
-            </div>
-        </footer>
-    </body>
-
-
+      </div>
+    </section>
+    <footer>
+      <div class="footer-container">
+        <img src="/images/daanlogo.png" />
+        <div class="footer-information">
+          <div>
+            <strong>Pages</strong>
+            <a href="/about.html">About</a>
+            <a href="/projects.html">Projects</a>
+            <a href="/contact.html">Contact</a>
+          </div>
+          <div>
+            <strong>Socials</strong>
+            <a>Linkedin</a>
+            <a>Instagram</a>
+            <a>Github</a>
+          </div>
+          <div>
+            <strong>Contact me!</strong>
+            <p>Send me an email at: <span>dfpreuvers@gmail.com</span></p>
+          </div>
+        </div>
+        <p>© 2024 Daan Reuvers</p>
+      </div>
+    </footer>
+  </body>
 </html>
